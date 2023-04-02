@@ -5,7 +5,7 @@ CONTAINER_NAME=recommender-core
 
 SERVICE_NAME=cowstudio/recommender-core
 SERVICE_PORT=3086
-SERVICE_ADDRESS=cowstudio.wayne-lee.cn
+SERVICE_ADDRESS=$(curl -s http://ipecho.net/plain)
 SIDECAR_PORT=4086
 
 # 构建镜像
